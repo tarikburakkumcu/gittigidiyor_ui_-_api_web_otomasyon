@@ -1,0 +1,354 @@
+2021-12-13 20:43:07,030 INFO  [Log] signIntoWebPage() PASSED 
+2021-12-13 20:43:10,646 INFO  [Log] searchProduct() PASSED 
+2021-12-13 20:43:17,678 INFO  [Log] clickProduct() PASSED 
+2021-12-13 20:43:49,000 INFO  [Log] addProductToFavourites() PASSED 
+2021-12-16 19:32:29,442 INFO  [Log] signIntoWebPage() PASSED 
+2021-12-16 19:32:31,185 INFO  [Log] searchProduct() PASSED 
+2021-12-16 19:32:35,315 ERROR [Log] clickProduct() FAILED with cause : URL is not correct ==> expected: <true> but was: <false> 
+2021-12-16 19:33:18,738 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-size-large product-title-word-break']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5ee1c977fb796a5a1bbe6076123233d
+*** Element info: {Using=xpath, value=//span[@class='a-size-large product-title-word-break']} 
+2021-12-16 19:33:40,199 INFO  [Log] signIntoWebPage() PASSED 
+2021-12-16 19:33:41,625 INFO  [Log] searchProduct() PASSED 
+2021-12-16 19:33:45,772 ERROR [Log] clickProduct() FAILED with cause : URL is not correct ==> expected: <true> but was: <false> 
+2021-12-16 19:33:59,887 ERROR [Log] addProductToFavourites() FAILED with cause : Cannot locate an element using xpath=//span[@class='a-size-large product-title-word-break']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 12:36:40,270 ERROR [Log] signIntoWebPage() FAILED with cause : Cannot locate an element using xpath=//input[@id='ap_password']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 12:37:28,911 ERROR [Log] signIntoWebPage() FAILED with cause : Cannot locate an element using xpath=//input[@id='ap_password']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 12:38:10,132 ERROR [Log] signIntoWebPage() FAILED with cause : Cannot locate an element using xpath=//input[@id='ap_password']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 12:38:22,312 ERROR [Log] searchProduct() FAILED with cause : chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60918}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c575cb3f917c0fdc8a99a0e60df7fc6
+*** Element info: {Using=id, value=searchDropdownBox} 
+2022-03-18 12:38:34,536 ERROR [Log] clickProduct() FAILED with cause : chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60918}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c575cb3f917c0fdc8a99a0e60df7fc6
+*** Element info: {Using=xpath, value=//div[@class='a-section a-spacing-small a-spacing-top-small']} 
+2022-03-18 12:38:50,717 ERROR [Log] addProductToFavourites() FAILED with cause : chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60918}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c575cb3f917c0fdc8a99a0e60df7fc6
+*** Element info: {Using=xpath, value=(//div[@class='sg-col-inner'])[5]} 
+2022-03-18 12:40:45,137 ERROR [Log] signIntoWebPage() FAILED with cause : Cannot locate an element using xpath=//input[@id='ap_password']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 12:41:35,790 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 12:41:47,365 INFO  [Log] searchProduct() PASSED 
+2022-03-18 12:42:07,430 ERROR [Log] clickProduct() FAILED with cause : Cannot locate an element using xpath=//div[@class='a-section a-spacing-small a-spacing-top-small']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 12:42:22,769 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 12:42:24,449 INFO  [Log] searchProduct() PASSED 
+2022-03-18 12:42:28,595 ERROR [Log] clickProduct() FAILED with cause : URL is not correct ==> expected: <true> but was: <false> 
+2022-03-18 12:43:16,785 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 12:43:19,654 INFO  [Log] searchProduct() PASSED 
+2022-03-18 12:43:23,785 ERROR [Log] clickProduct() FAILED with cause : URL is not correct ==> expected: <true> but was: <false> 
+2022-03-18 12:43:42,442 ERROR [Log] addProductToFavourites() FAILED with cause : Cannot locate an element using xpath=//span[@class='a-size-large product-title-word-break']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 12:46:33,870 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='sg-col-inner'])[5]"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1458f177e9491d7bf10de26f8b703eb
+*** Element info: {Using=xpath, value=(//div[@class='sg-col-inner'])[5]} 
+2022-03-18 12:46:51,436 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 12:46:53,043 INFO  [Log] searchProduct() PASSED 
+2022-03-18 12:46:59,205 INFO  [Log] clickProduct() PASSED 
+2022-03-18 12:47:40,359 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-size-large product-title-word-break']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d552753bb9f33ce03d0cd40b72513993
+*** Element info: {Using=xpath, value=//span[@class='a-size-large product-title-word-break']} 
+2022-03-18 12:54:06,967 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 12:54:08,635 INFO  [Log] searchProduct() PASSED 
+2022-03-18 12:54:12,783 ERROR [Log] clickProduct() FAILED with cause : URL is not correct ==> expected: <true> but was: <false> 
+2022-03-18 12:54:32,307 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 12:54:34,372 INFO  [Log] searchProduct() PASSED 
+2022-03-18 12:54:37,544 ERROR [Log] clickProduct() FAILED with cause : element click intercepted: Element <a href="/s?k=msi&amp;i=computers&amp;page=...&amp;__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=28S5H5EF3224I&amp;qid=1647597271&amp;sprefix=%2Ccomputers%2C93&amp;ref=sr_pg_2" aria-label="2 sayfasına git" class="s-pagination-item s-pagination-button">2</a> is not clickable at point (1061, 564). Other element would receive the click: <span class="navFooterBackToTopText">...</span>
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63bd10d2190017329f5f8e8bf7b3de4a 
+2022-03-18 12:54:48,020 ERROR [Log] addProductToFavourites() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63bd10d2190017329f5f8e8bf7b3de4a
+*** Element info: {Using=xpath, value=(//div[@class='a-section a-spacing-base'])[1]} 
+2022-03-18 12:54:56,608 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 12:54:58,377 INFO  [Log] searchProduct() PASSED 
+2022-03-18 12:55:01,545 ERROR [Log] clickProduct() FAILED with cause : element click intercepted: Element <a href="/s?k=msi&amp;i=computers&amp;page=...&amp;__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=3HVK2DC8LXTY0&amp;qid=1647597295&amp;sprefix=%2Ccomputers%2C88&amp;ref=sr_pg_2" aria-label="2 sayfasına git" class="s-pagination-item s-pagination-button">2</a> is not clickable at point (1061, 569). Other element would receive the click: <span class="navFooterBackToTopText">...</span>
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c050f43d67da5795566c51fb0ba674ca 
+2022-03-18 12:58:25,984 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 12:58:27,801 INFO  [Log] searchProduct() PASSED 
+2022-03-18 12:58:31,937 ERROR [Log] clickProduct() FAILED with cause : URL is not correct ==> expected: <true> but was: <false> 
+2022-03-18 12:59:46,190 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-wishlist\-button\-submit"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 007d88ac889a11dacbb1319ebfdb9086
+*** Element info: {Using=id, value=add-to-wishlist-button-submit} 
+2022-03-18 13:00:06,385 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:00:07,961 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:00:12,129 ERROR [Log] clickProduct() FAILED with cause : URL is not correct ==> expected: <true> but was: <false> 
+2022-03-18 13:00:24,075 ERROR [Log] addProductToFavourites() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2589b318c29ffee70e1f419761a172ec
+*** Element info: {Using=xpath, value=(//div[@class='a-section a-spacing-base'])[1]} 
+2022-03-18 13:03:14,196 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:03:15,508 ERROR [Log] addProductToFavourites() FAILED with cause : chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e89983f56e3eb303fb4363e198ba7b9
+*** Element info: {Using=xpath, value=(//div[@class='sg-col-inner'])[4]} 
+2022-03-18 13:03:15,950 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:03:20,119 ERROR [Log] clickProduct() FAILED with cause : URL is not correct ==> expected: <true> but was: <false> 
+2022-03-18 13:04:01,072 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='a-section a-spacing-base'])[1]"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f9a66198a658b127970ff65e7392986
+*** Element info: {Using=xpath, value=(//div[@class='a-section a-spacing-base'])[1]} 
+2022-03-18 13:07:50,614 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:07:52,198 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:07:54,234 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:08:38,604 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-wishlist\-button\-submit"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58458f8de517dda5553c798605ae9da9
+*** Element info: {Using=id, value=add-to-wishlist-button-submit} 
+2022-03-18 13:21:56,294 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:21:58,107 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:22:00,144 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:22:42,991 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-wishlist\-button\-submit"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0732f2c30fa2cae6d2533519f58a257
+*** Element info: {Using=id, value=add-to-wishlist-button-submit} 
+2022-03-18 13:23:12,924 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:23:14,588 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:23:16,631 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:23:59,834 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-wishlist\-button\-submit"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58625}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f4b6d3882e6b32437ea3410f7a9d19b
+*** Element info: {Using=id, value=add-to-wishlist-button-submit} 
+2022-03-18 13:25:13,178 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:25:15,207 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:25:17,242 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:25:49,446 ERROR [Log] addProductToFavourites() FAILED with cause : Cannot locate an element using id=add-to-wishlist-button-submit
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 13:26:05,237 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:26:06,865 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:26:08,901 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:26:50,077 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-wishlist\-button\-submit"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56411}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 263fd836305137fc3bbe567626a502d4
+*** Element info: {Using=id, value=add-to-wishlist-button-submit} 
+2022-03-18 13:27:59,986 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:28:01,814 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:28:03,850 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:28:05,852 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:28:34,764 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:28:36,575 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:28:38,615 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:28:42,721 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:30:33,141 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:30:34,672 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:30:36,717 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:30:40,829 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:30:56,801 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:30:58,291 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:31:00,328 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:31:04,491 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:31:25,746 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:31:27,387 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:31:29,427 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:31:36,340 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:31:55,826 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:31:57,549 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:31:59,600 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:32:03,692 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:33:39,936 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:33:41,594 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:33:43,631 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:33:50,204 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:34:03,827 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:34:05,978 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:34:08,012 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:34:14,215 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:34:27,593 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:34:29,267 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:34:31,321 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:34:37,332 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:35:24,011 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:35:25,695 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:35:27,733 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:35:33,944 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:41:06,235 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:41:07,927 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:41:09,978 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:41:18,153 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:42:43,663 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:42:49,039 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:42:51,092 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:43:33,863 ERROR [Log] addProductToFavourites() FAILED with cause : Cannot locate an element using xpath=(//span[@class='w-button-text'])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 13:48:47,964 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:48:49,783 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:48:51,830 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:49:22,172 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:49:24,243 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:49:26,295 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:49:49,887 ERROR [Log] addProductToFavourites() FAILED with cause : Cannot locate an element using xpath=(//input[@class='a-button-input a-declarative'])[3]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver 
+2022-03-18 13:50:04,009 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:50:05,912 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:50:07,954 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:50:51,970 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='a-button-input a-declarative'])[3]"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56848}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddead917da761e2ca56bdeeb9bbcc3ca
+*** Element info: {Using=xpath, value=(//input[@class='a-button-input a-declarative'])[3]} 
+2022-03-18 13:51:28,328 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:51:29,919 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:51:31,978 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:52:16,621 ERROR [Log] addProductToFavourites() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='a-button-input a-declarative'])[3]"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d616b3b31f7c6fc438043c750a7a06c
+*** Element info: {Using=xpath, value=(//input[@class='a-button-input a-declarative'])[3]} 
+2022-03-18 13:55:57,302 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:55:58,919 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:56:00,950 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:56:14,922 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:56:40,004 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:56:41,739 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:56:43,770 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:56:59,744 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 13:57:27,460 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 13:57:29,643 INFO  [Log] searchProduct() PASSED 
+2022-03-18 13:57:31,684 INFO  [Log] clickProduct() PASSED 
+2022-03-18 13:57:54,613 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 14:00:26,140 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 14:00:27,738 INFO  [Log] searchProduct() PASSED 
+2022-03-18 14:00:29,802 INFO  [Log] clickProduct() PASSED 
+2022-03-18 14:00:52,824 INFO  [Log] addProductToFavourites() PASSED 
+2022-03-18 14:03:42,472 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 14:03:44,567 INFO  [Log] searchProduct() PASSED 
+2022-03-18 14:03:46,608 INFO  [Log] clickProduct() PASSED 
+2022-03-18 14:03:56,784 ERROR [Log] addProductToFavourites() FAILED with cause : element click intercepted: Element <a href="https://sellercentral.amazon.com.tr/abis/listing/syh/ref=udp_sdp_sell?_encoding=UTF8&amp;mons_sel_best_mkid=amzn1.mp.o.A33AVAJ2PDY3EV&amp;ld=AMZUDP&amp;coliid=&amp;asin=B09G1HYYLD&amp;colid=&amp;qid=1647601423&amp;sr=1-2-spons" class="a-button-text" id="a-autoid-1-announce">...</a> is not clickable at point (1561, 796). Other element would receive the click: <div class="a-modal-scroller a-declarative" data-action="a-popover-floating-close" style="padding-bottom: 0px; visibility: visible;">...</div>
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PESF0MI', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\EFF3A1~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 564915f73c07de1d542cbcd21df1a6d9 
+2022-03-18 14:04:35,587 INFO  [Log] signIntoWebPage() PASSED 
+2022-03-18 14:04:37,552 INFO  [Log] searchProduct() PASSED 
+2022-03-18 14:04:39,596 INFO  [Log] clickProduct() PASSED 
+2022-03-18 14:05:02,817 INFO  [Log] addProductToFavourites() PASSED 
