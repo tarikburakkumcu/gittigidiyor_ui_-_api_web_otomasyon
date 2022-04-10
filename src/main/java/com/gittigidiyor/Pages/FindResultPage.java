@@ -21,6 +21,7 @@ public class FindResultPage extends BasePage{
     }
     public ProductDetailPage goToProductDetails(){
         click (randomSelectProductBy(),10);
+
         return new ProductDetailPage(webDriver);
     }
 }

@@ -3,9 +3,10 @@ package com.gittigidiyor;
 import com.gittigidiyor.kullaniciKapsülleme.kullanici;
 import com.gittigidiyor.pages.*;
 import com.gittigidiyor.utilities.BaseTest;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.runner.OrderWith;
 import org.testng.annotations.Test;
+
+import java.io.*;
+
 import static org.testng.AssertJUnit.*;
 
 public class TestCase extends BaseTest {
@@ -42,7 +43,30 @@ public class TestCase extends BaseTest {
 
         ProductDetailPage productDetailPage = findResultPage.goToProductDetails();
         Log4j.info("Ürün fiyat bilgisi alınıyor");
+        Log4j.info("Seçilen ürünün tutar bilgisi txt dosyasına yazılır.");
         String productPrice = productDetailPage.productPrice();
+        try {
+        FileWriter fileWriter= new FileWriter("blog.txt");
+        PrintWriter printWriter=new PrintWriter(fileWriter);
+        printWriter.println(productPrice);
+        printWriter.close();
+        }
+        catch (IOException e){
+            System.out.println("Hata !!");
+        }
+        try {
+           FileReader fileReader=new FileReader("blog.txt");
+            BufferedReader bufferedReader=new BufferedReader(fileReader);
+
+            String str;
+           while ((str=bufferedReader.readLine()) !=null){
+               System.out.println(str+"\n");
+           }
+            bufferedReader.close();
+        }
+        catch (IOException e){
+            System.out.println("Dosya Okunamadı.");
+        }
         productDetailPage.scrollToPage("200");
         Log4j.info("Seçilen ürün sepete eklendi");
         productDetailPage.addToBasket();

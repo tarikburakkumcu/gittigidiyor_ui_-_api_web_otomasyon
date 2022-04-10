@@ -3,7 +3,7 @@
 - Arama sonuçları sayfasından 2.sayfa açılır.
 - 2.sayfanın açıldığı kontrol edilir.
 - Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir.
-- Seçilen ürünün ürün bilgisi ve tutar bilgisi txt dosyasına yazılır.
+- Seçilen ürünün tutar bilgisi txt dosyasına yazılır.(target içerisindeki blog.txt dosyası)
 - Seçilen ürün sepete eklenir.
 - Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır.
 - Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.
