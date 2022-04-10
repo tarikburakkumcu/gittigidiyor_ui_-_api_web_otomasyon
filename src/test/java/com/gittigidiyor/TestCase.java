@@ -14,8 +14,7 @@ public class TestCase extends BaseTest {
         String title = "GittiGidiyor - Türkiye'nin Öncü Alışveriş Sitesi";
         String email = "tahrik1799@gmail.com";
         String password = "tariktestinium99";
-//        "mertarann@hotmail.com"
-//        "testiniummert98"
+
 
 
         MainPage mainPage = new MainPage(webDriver);
